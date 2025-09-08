@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
- 
+
 using namespace std;
 
 // TODO: Write the Book struct here
@@ -12,12 +12,7 @@ struct Book {
     char author[100];
     int year;
     int pages;
-   char isbn[20]
-
- 
-
-
-
+    char isbn[20];
 }; 
 
 // Output function to print book details
